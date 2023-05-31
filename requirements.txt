@@ -1,5 +1,22 @@
-opencv-python
 torch
 Pillow
 pyopengl
-psutil
+gitpython
+matplotlib
+numpy
+opencv-python
+psutil 
+PyYAML
+requests
+scipy
+thop
+torchvision
+tqdm
+ultralytics
+
+# Plotting --------------------------------------------------------------------
+pandas
+seaborn
+
+# Deploy ----------------------------------------------------------------------
+setuptools>=65.5.1 # Snyk vulnerability fix
