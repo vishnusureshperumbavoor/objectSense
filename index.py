@@ -4,8 +4,13 @@ import numpy as np
 import torch
 from PIL import Image
 
+st.set_page_config(
+    page_title="Object Sense",
+    page_icon="🔎"
+)
+
 def main():
-    st.title("Object Detection App")
+    st.title("Object Detection App by VSP")
     
     # Upload image
     uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])

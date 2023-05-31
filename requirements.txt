@@ -19,4 +19,4 @@ pandas
 seaborn
 
 # Deploy ----------------------------------------------------------------------
-setuptools>=65.5.1 # Snyk vulnerability fix
+setuptools # Snyk vulnerability fix
