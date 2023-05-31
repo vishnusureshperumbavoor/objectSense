@@ -16,8 +16,10 @@ def main():
         image = np.array(bytearray(uploaded_file.read()), dtype=np.uint8)
         image = cv2.imdecode(image, 1)
         
-        # Display original image
-        st.image(image, channels="BGR", caption="Original Image")
+        # Display original image on the right side
+        col1, col2 = st.columns(2)
+        with col1:
+            st.image(image, channels="BGR", caption="Original Image")
         
         # Detect objects using yolov5
         # Convert OpenCV image to PIL format
@@ -29,12 +31,10 @@ def main():
         # Annotated image
         annotated_image = results.render()
 
-        # Display annotated image
-        st.image(annotated_image, channels="RGB", caption="Annotated Image")
+        # Display annotated image on the left side
+        with col2:
+            st.image(annotated_image, channels="RGB", caption="Annotated Image")
 
-        # Display annotated image
-        # st.image(image, channels="BGR", caption="Annotated Image")
-    
 if __name__ == "__main__":
     model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
     main()
