@@ -1,20 +1,21 @@
 # YOLOv5 web interface
 
-This repository contains a web-based user interface for performing object detection using YOLOv5, a deep learning model for real-time object detection. The web interface allows users to interact with the object detection system using Streamlit, making it easy and accessible.
-
-## Demo
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vB9NTjRyBzY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-## Prerequisites
-- Python
+## Description 
+I created a web UI for YOLOv5 object detection algorithm <br>
+It will be upgraded to state-of-the-art YOLOv8 in the future <br>
+Currently there is only image detection. In the future I will integrate video detection as well <br> 
 
 ## Access it online
-[webinterfaceyolov5.streamlit.app](https://vishnusureshperumbavoor-objectsense-index-kgv1l4.streamlit.app/)
+Check this out at [webinterfaceyolov5.streamlit.app](https://vishnusureshperumbavoor-objectsense-index-kgv1l4.streamlit.app/)
+
+## Youtube Demo
+
+Clich [here >>](https://youtu.be/vB9NTjRyBzY)
+
+## Prerequisites
+Python
 
 ## Getting Started Locally
-
-Follow these steps to set up the Web Interface for YOLOv5 Object Detection locally:
 
 1. Clone the Repository:
 
@@ -32,8 +33,6 @@ pip install -r requirements.txt
 ```sh
 streamlit run app.py
 ```
-4. Performing Object Detection:
-Perform the object detection by uploading the image
 
 ## Contact
 Contact
