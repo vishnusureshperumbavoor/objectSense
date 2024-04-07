@@ -1,9 +1,9 @@
 torch
-Pillow
+Pillow>=10.3.0
 pyopengl
 gitpython
 matplotlib
-numpy
+numpy>=1.23.5
 opencv-python
 psutil 
 PyYAML
@@ -13,11 +13,11 @@ thop
 torchvision
 tqdm
 ultralytics
-streamlit
+streamlit==1.29.0
 
 # Plotting --------------------------------------------------------------------
 pandas
 seaborn
 
 # Deploy ----------------------------------------------------------------------
-setuptools # Snyk vulnerability fix
+setuptools>=65.5.1

@@ -3,6 +3,7 @@ import cv2
 import numpy as np
 import torch
 from PIL import Image
+from ultralytics import YOLO
 
 st.set_page_config(
     page_title="Object Sense",
@@ -40,5 +41,6 @@ def main():
             st.image(annotated_image, channels="RGB", caption="Annotated Image")
 
 if __name__ == "__main__":
-    model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
+    model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True) ## yolov5
+    # model = YOLO('yolov8n.pt')
     main()
