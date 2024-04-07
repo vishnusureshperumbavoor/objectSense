@@ -1,35 +1,23 @@
 # YOLOv5 web interface
 
-## Description 
-I created a web UI for YOLOv5 object detection algorithm <br>
-It will be upgraded to state-of-the-art YOLOv8 in the future <br>
-Currently there is only image detection. In the future I will integrate video detection as well <br> 
-
-## Access it online
-Check this out at [webinterfaceyolov5.streamlit.app](https://vishnusureshperumbavoor-objectsense-index-kgv1l4.streamlit.app/)
+Web UI for object detection  
+[vishnusureshperumbavoor-objectsense-index-kgv1l4.streamlit.app](https://vishnusureshperumbavoor-objectsense-index-kgv1l4.streamlit.app/)
 
 ## Youtube Demo
-
-Clich [here >>](https://youtu.be/vB9NTjRyBzY)
+[youtu.be/vB9NTjRyBzY](https://youtu.be/vB9NTjRyBzY)
 
 ## Prerequisites
 Python
 
 ## Getting Started Locally
 
-1. Clone the Repository:
-
-```bash
-git clone https://github.com/your_username/web-interface-yolov5.git
-cd web-interface-yolov5
-```
-
-2. Install Dependencies:
+* Clone the Repo
+* install necessary python packages
 ```sh
 pip install -r requirements.txt
 ```
 
-3. Run the Web Interface Locally:
+* Run the Web Interface Locally:
 ```sh
 streamlit run app.py
 ```
@@ -40,9 +28,9 @@ For any inquiries or feedback, please contact [Vishnu Suresh Perumbavoor](https:
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![github][github-shield]][github-url]
 [![Twitter][twitter-shield]][twitter-url]
-[![Linktree][linktree-shield]][linktree-url]
-[![Instagram][instagram-shield]][instagram-url]
-[![GMail][gmail-shield]][gmail-url]
+<!-- [![Linktree][linktree-shield]][linktree-url] -->
+<!-- [![Instagram][instagram-shield]][instagram-url] -->
+<!-- [![GMail][gmail-shield]][gmail-url] -->
 
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
 [linkedin-url]: https://www.linkedin.com/in/vishnu-suresh-perumbavoor/

@@ -13,6 +13,7 @@ thop
 torchvision
 tqdm
 ultralytics
+streamlit
 
 # Plotting --------------------------------------------------------------------
 pandas
