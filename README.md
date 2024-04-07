@@ -1,6 +1,7 @@
-# YOLOv5 web interface
+# Object detection using Yolov5
+This code uses yolov5 from pytorch for object detection
 
-Web UI for object detection  
+## Deployment
 [vishnusureshperumbavoor-objectsense-index-kgv1l4.streamlit.app](https://vishnusureshperumbavoor-objectsense-index-kgv1l4.streamlit.app/)
 
 ## Youtube Demo
