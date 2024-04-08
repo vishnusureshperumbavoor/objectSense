@@ -3,7 +3,6 @@ import cv2
 import numpy as np
 import torch
 from PIL import Image
-from ultralytics import YOLO
 
 st.set_page_config(
     page_title="Object Sense",
@@ -24,7 +23,7 @@ def main():
         # Display original image on the right side
         col1, col2 = st.columns(2)
         with col1:
-            st.image(image, channels="BGR", caption="Original Image")
+            st.image(image, channels="BGR", caption="Human Vision")
         
         # Detect objects using yolov5
         # Convert OpenCV image to PIL format
@@ -38,7 +37,7 @@ def main():
 
         # Display annotated image on the left side
         with col2:
-            st.image(annotated_image, channels="RGB", caption="Annotated Image")
+            st.image(annotated_image, channels="RGB", caption="AI Vision")
 
 if __name__ == "__main__":
     model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True) ## yolov5
