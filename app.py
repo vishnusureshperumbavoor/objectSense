@@ -37,7 +37,7 @@ def main():
 
         # Display annotated image on the left side
         with col2:
-            st.image(annotated_image, channels="RGB", caption="AI Vision")
+            st.image(annotated_image, channels="RGB", caption="Machine Vision")
 
 if __name__ == "__main__":
     model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True) ## yolov5
